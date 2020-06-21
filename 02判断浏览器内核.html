@@ -1,0 +1,36 @@
+<script language="JavaScript">
+    function btnlogin() {
+        if (navigator.userAgent.indexOf("MSIE") > 0) { // MSIE内核        
+            return "MSIE";
+        }
+        if (navigator.userAgent.indexOf("Firefox") > 0) { // Firefox内核       
+            return "Firefox";
+        }
+        if (navigator.userAgent.indexOf("Opera") > 0) { // Opera内核       
+            return "Opera";
+        }
+        if (navigator.userAgent.indexOf("Safari") > 0) { // Safari内核       
+            return "Safari";
+        }
+        if (navigator.userAgent.indexOf("Camino") > 0) { // Camino内核       
+            return "Camino";
+        }
+        if (navigator.userAgent.indexOf("Gecko") > 0) { // Gecko内核       
+            return "Gecko";
+        }
+    }
+</script>
+
+<script>
+    if (window.navigator.userAgent.indexOf("MSIE 7.0") >= 1) { //如果浏览器为IE7
+        return "MSIE 7.0";
+    }
+
+    if (window.navigator.userAgent.indexOf("MSIE 7.0") >= 1) { //如果浏览器为IE8
+        return "MSIE 8.0";
+    }
+
+    if (window.navigator.userAgent.indexOf("MSIE 7.0") >= 1) { //如果浏览器为IE9
+        return "MSIE 9.0";
+    }
+</script>
